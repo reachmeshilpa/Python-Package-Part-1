@@ -20,7 +20,8 @@ print ( len (keyword.kwlist), keyword.kwlist)
 
 # A continuation character or backslash is used for a multiline python statement
 number = 1 + 2 +\
-         3 + 4 + 5
+         3 + 4 + \
+         5
 print (number)
 # or we can just use brackets for a multiline python statement
 number2 = (1 + 2 +
