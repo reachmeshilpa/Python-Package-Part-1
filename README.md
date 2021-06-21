@@ -34,10 +34,15 @@ print (number2)
    It can include underscore, alphabet (lower or upper -case) and a number
    It cannot include special symbols except and underscore
    It cannot begin with a number
+   Only alphabet can come after an underscore
  '''
- # Mutlitple variables can be assigned in a single line by separating with a comma
+ # Mutlitple variables can be assigned in a single line by separating with a comma ?????NW
  var_1, _var2 = 2, 3
  print (var_1, _var2)
+ 
+ # Variables can be created and print command can be given in the same line ?????NW
+ print (var_5 = 4, var_6 = 5)
+ 
  
  # When two variables are assigned the same value, they are stored by the same ID number
  var3 = var4 = 4
@@ -45,6 +50,7 @@ print (number2)
  
  # To check the location id of a variable, use id()
  id ( var3, var4 )
+ 
  # Python saves space by storing the same value for different variables in one location
  
  
