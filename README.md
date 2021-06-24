@@ -18,6 +18,20 @@ to print
 # the above two commands in a single coding line
 print ( len (keyword.kwlist), keyword.kwlist)
 
+# PRINT OUTPUT
+print ('the output will be displayed on screen')
+OUTPUT -> the output will be displayed on screen
+
+integer = 4
+
+# using (,variable) -> extra space is what we get
+print ('the value of integer is ',integer)
+OUTPUT -> the value of integer is  4
+
+# using ()+str -> extra space is removed
+print ('the value of integer is ')+str(integer)
+OUTPUT -> the value of integer is 4
+
 # A continuation character or backslash is used for a multiline python statement
 number = 1 + 2 +\
          3 + 4 + \
