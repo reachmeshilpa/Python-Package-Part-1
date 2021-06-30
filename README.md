@@ -1,11 +1,66 @@
 # Python-Package-Part-1
 Learning by implementation
 
+PYTHON--VERSION
+
+command + enter: run on mac
+
 import keyword
 '''
   to print
  
 '''
+# quotes mark the beginning and the end of a string
+
+# String is the text that I want to print, it is encasee within quotes and can be number or alphabets
+print('Hello world!')
+print ("print('what to print')")
+
+# a. Printing in three lines
+print('Hello world!')
+print('Hello world!')
+print('Hello world!')
+#when all three are run together
+OUTPUT->
+Hello world!
+Hello world!
+Hello world!
+
+# b. Printing in three lines smartly
+print('Hello world!\nHello world!\nHello world!')
+OUTPUT->
+Hello world!
+Hello world!
+Hello world!
+
+# Concatanetation of two strings using arithematic operation or STRING CONCATENATION
+a. print('Hello' + 'Shilpa')
+OUTPUT-> HelloShilpa
+b. print('Hello' + ' Shilpa')
+OUTPUT->Hello Shilpa
+c.print('Hello' + ' ' + 'Shilpa')
+OUTPUT->Hello Shilpa
+
+
+
+
+# single or double quote is the same for python but this data is stored always in double quote
+
+
+#**Syntax/Quotatio Error** if I type print ('Hello World!) ending quotation **mark is absent**
+
+# Unexpected EOF while parsing
+print((“New lines can be created with a backslash and n.”)
+#Two open parenthesis and one closed so computer thinks you are going to continue the code block
+to correct
+print(“New lines can be created with a backslash and n.”)
+
+#**Indentation/Leading White Space Error**
+> print()
+instead of >print()
+# print('Hello'+' '+
+         'Shilpa')
+
 # the number of keywords in the current version of Python
 print (len (keyword.kwlist))
 
