@@ -38,7 +38,7 @@ a. print('Hello' + 'Shilpa')
 OUTPUT-> HelloShilpa
 b. print('Hello' + ' Shilpa')
 OUTPUT->Hello Shilpa
-c.print('Hello' + ' ' + 'Shilpa')
+c.print('Hello' + ' ' + 'Shilpa') #works everytime, most reliable
 OUTPUT->Hello Shilpa
 
 
